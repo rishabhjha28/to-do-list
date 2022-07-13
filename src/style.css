@@ -48,4 +48,5 @@ button{
 }
 li{
     margin-top: 15px;
+    cursor: pointer;
 }
