@@ -9,7 +9,7 @@ const Input = (props)=>{
 
     return(
         <>
-        <input onChange={handleOnChange} type="text" name={props.name} value = {item} placeholder={props.placeholder}/>
+        <input onChange={handleOnChange} type="text" name={props.name} value = {item} autoFocus placeholder={props.placeholder}/>
         <Button fun = {props.onAdd} addedItem = {item} fun1 = {setItem} purpose = {props.buttonPurpose}/>
         </>
     );
